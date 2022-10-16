@@ -161,7 +161,7 @@ submit.addEventListener("click", function (e) {
      // score++;
    } else {     
      // console.log(`${score}/ ${QuizData.length}`);   
-   Quiz.innerHTML = `<h2> You answered   ${ score} correctly out of ${QuizData.length } questions </h2> <br> <button onclick ="location.reload()" id="ben">play again</button>`;
+   Quiz.innerHTML = `<h2> You answered   ${ score} correctly out of ${QuizData.length } questions </h2><button onclick ="location.reload()" id="ben">play again</button>`;
    }
  }
 });

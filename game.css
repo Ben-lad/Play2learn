@@ -10,6 +10,14 @@ body{
   width: 100vw;
   height: 100vh;
 }
+#ben{
+  color: #111;
+  padding: 20px;
+  margin: 10px;
+  background-color: #aa09aa;
+  font-size: 2rem;
+  cursor: pointer;
+}
 .quiz-container{
   background-color: #222222;
   width: 20rem;
